@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #result {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        #backButton {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="result"></div>
+    <button id="backButton" onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        // Get the score from the URL parameter
+        const form = document.getElementById('quizForm');
+        const urlParams = new URLSearchParams(window.location.search);
+        const score = urlParams.get('score');
+
+        // Display the result
+        const resultElement = document.getElementById('result');
+        resultElement.textContent = `Your score: ${score} out of 5`;
+    </script> -->
+
+    <div id="result">
+        <p>The serial number is:</p>
+    </div>
+    <script>
+    function show() {
+        const resultElement = document.getElementById('result');
+        resultElement.textContent = `Your score: ${score} out of 5`;
+    }
+    </script>
+</body>
+</html>

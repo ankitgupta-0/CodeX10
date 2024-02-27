@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Web Application</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./assets/quiz.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+     
+</head>
+<body>
+    <div class="logo">
+        <span class="material-symbols-outlined">quiz</span>
+        <div class="protest-revolution-regular">JAVA</div>
+    </div>
+    <section class="section pt-0">
+        <div class="container">
+        <header class="section-header">
+        <hr>
+        </header>
+        <div class="row gap-y text-center pr-4">
+            
+                 <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+           <button class="btn btn-xs small btn-info" name="buttonQuestion1" onclick="showQuestion1()">Question
+                1</button>
+                    </div>
+                </div>
+                    <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                    <button class="btn btn-xs small " name="buttonQuestion2" onclick="showQuestion2()">Question
+                    2</button>
+                    </div>
+                </div>
+                    <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion3" onclick="showQuestion3()">Question
+                        3</button>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion4" onclick="showQuestion4()">Question
+                        4</button>
+                    </div>
+                </div>
+                 <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion5" onclick="showQuestion5()">Question
+                        5</button>
+                    </div>
+                </div>
+            <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion6" onclick="showQuestion6()">Question
+                        6</button>
+                    </div>
+                </div>
+               <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion7" onclick="showQuestion7()">Question
+                        7</button>
+                    </div>
+                </div>
+               <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion8" onclick="showQuestion8()">Question
+                        8</button>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion9" onclick="showQuestion9()">Question
+                        9</button>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion10" onclick="showQuestion10()">Question
+                        10</button>
+                    </div>
+                </div>
+        </div> <form action="https://" method='POST'>
+            <input type="hidden" name="_token" value="">                                                    
+                             
+                                                                                                                                            
+                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                    
+             <div name='Question1' >
+             <h6 class="divider mt-7 mb-1">Question 1</h6>
+             <p class="text-right pt-0">
+             Correct Answers:  <span class="text-success">1/4</span>
+        </p>
+            <h4 class="lead"><strong>How to delete a directory in Linux?</strong></h4>
+                                            
+            <div class="custom-controls-stacked">
+                                                
+                <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" name="1[]" value='answer_d'>
+                                                            
+         <label class="custom-control-label lead">rmdir</label>
+            
+        </div>
+                                                                                                                                                                                                                                                                                                                                                                                
+        <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" name="1[]" value='answer_a'>
+                                                            
+   <label class="custom-control-label lead">ls</label>
+            
+     </div>
+                                                                                                                                                                                                                        
+     <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="1[]" value='answer_c'>
+                                                            
+    <label class="custom-control-label lead">remove</label>
+            
+    </div>
+                                                                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="1[]" value='answer_b'>
+                                                            
+    <label class="custom-control-label lead">delete</label>
+            
+    </div>
+                                                                                                                                                                        
+    <input type='hidden' value='0' name="1[]">
+    <hr>
+    <div class='pt-3 pull-right'>
+                                                                                                                                        
+        <button type="button" name='nextQuestion1Button' class="btn-round btn btn-outline-info">Next Question</button>
+        </div>
+        </div>
+        </div>
+                                                     
+                                                                
+                                        
+                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                            
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                        
+                                                                                                    
+    <div name='Question2' style=display:none;>
+    <h6 class="divider mt-7 mb-1"> Question 2</h6>
+     <p class="text-right pt-0">
+    Correct Answers:  <span class="text-success">1/4</span>
+    </p>
+    <h4 class="lead"><strong>Which of the following is a command in Linux?</strong></h4>
+                                            
+    <div class="custom-controls-stacked">
+                                                
+                                                                                                                                    
+        <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="10[]" value='answer_d'>
+                                                            
+     <label class="custom-control-label lead">All of the Above</label>
+            
+    </div>
+                                                                                                                                                                                                                                                                                                                                                                                
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="10[]" value='answer_a'>
+                                                            
+     <label class="custom-control-label lead">w</label>
+            
+    </div>
+                                                                                                                                                                                                                        
+   <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" name="10[]" value='answer_c'>
+                                                            
+    <label class="custom-control-label lead">t</label>
+            
+    </div>
+                                                                                                                                                                                                                        
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="10[]" value='answer_b'>
+                                                            
+    <label class="custom-control-label lead">x</label>
+            
+    </div>
+                                                                                                                                                                        
+    <input type='hidden' value='0' name="10[]">
+   <hr>
+    <div class='pt-3 pull-right'>
+    <button type="button" name='previousQuestion2Button' class="btn-round btn btn-outline-info">Previous Question</button>
+                                                                                                                                        
+    <button type="button" name='nextQuestion2Button' class="btn-round btn btn-outline-info">Next Question</button>
+    </div>
+    </div>
+    </div>
+
+ <div name='Question3' style=display:none;>
+    <h6 class="divider mt-7 mb-1">Question 3</h6>
+    <p class="text-right pt-0">
+        Correct Answers:  <span class="text-success">1/4</span>
+    </p>
+    <h4 class="lead"><strong>When looking for all the processes running on a Linux system, what command should you use?</strong></h4>
+    
+    <div class="custom-controls-stacked">
+        
+                                                                                            
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="20[]" value='answer_d'>
+                    
+    <label class="custom-control-label lead">xrun</label>
+
+    </div>
+                                                                                                                                                                                                                                                                                                                                        
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="20[]" value='answer_a'>
+                    
+    <label class="custom-control-label lead">service</label>
+
+    </div>
+                                                                                                                                                                                
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="20[]" value='answer_c'>
+                    
+    <label class="custom-control-label lead">ps</label>
+
+    </div>
+                                                                                                                                                                                
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="20[]" value='answer_b'>
+                    
+    <label class="custom-control-label lead">oterm</label>
+
+    </div>
+                                                                                                                                
+    <input type='hidden' value='0' name="20[]">
+    <hr>
+    <div class='pt-3 pull-right'>
+    <button type="button" name='previousQuestion3Button' class="btn-round btn btn-outline-info">Previous Question</button>
+                                                                                                
+    <button type="button" name='nextQuestion3Button' class="btn-round btn btn-outline-info">Next Question</button>
+    </div>
+    </div>
+</div>
+                                                                                                
+<div name='Question4' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 4</h6>
+<p class="text-right pt-0">
+Correct Answers:  <span class="text-success">1/4</span>
+</p>
+<h4 class="lead"><strong>Which of the following is a text editor that can be used in command mode to edit files on a Linux system?</strong></h4>
+            
+<div class="custom-controls-stacked">
+                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="21[]" value='answer_d'>
+                            
+<label class="custom-control-label lead">edit</label>
+
+</div>
+                                                                                                                                                                                                                                                                                                                                                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="21[]" value='answer_a'>
+                            
+<label class="custom-control-label lead">vi or vim</label>
+
+</div>
+                                                                                                                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="21[]" value='answer_c'>
+                                                            
+<label class="custom-control-label lead">open</label>
+            
+</div>
+                                                                                                                                                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="21[]" value='answer_b'>
+                                                            
+<label class="custom-control-label lead">lsof</label>
+            
+</div>
+                                                                                                                                                                        
+<input type='hidden' value='0' name="21[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion4Button' class="btn-round btn btn-outline-info">Previous Question</button>
+                                                                                                                                        
+<button type="button" name='nextQuestion4Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+</div>
+</div>
+<div name='Question5' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 5</h6>
+<p class="text-right pt-0">
+Correct Answers:  <span class="text-success">1/4</span>
+</p>
+<h4 class="lead"><strong>Which command is used to create file archives in Linux?</strong></h4>
+        
+<div class="custom-controls-stacked">
+            
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="34[]" value='answer_d'>
+                        
+<label class="custom-control-label lead">tar</label>
+
+</div>
+                                                                                                                                                                                                                                                                                                                                            
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="34[]" value='answer_a'>
+    
+    <label class="custom-control-label lead">arc</label>
+
+</div>
+                                                                                                                                                                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="34[]" value='answer_c'>
+    
+    <label class="custom-control-label lead">ps</label>
+
+</div>
+                                                                                                                                                                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="34[]" value='answer_b'>
+    
+    <label class="custom-control-label lead">zip</label>
+
+</div>
+                                                                                                                
+<input type='hidden' value='0' name="34[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion5Button' class="btn-round btn btn-outline-info">Previous Question</button>
+<button type="button" name='nextQuestion5Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+</div>
+</div>
+                                                                                                                                                          
+                                                                                                    
+<div name='Question6' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 6</h6>
+<p class="text-right pt-0">
+    Correct Answers:  <span class="text-success">1/4</span>
+</p>
+<h4 class="lead"><strong>The /etc/shadow file in Linux is used to store:</strong></h4>
+
+<div class="custom-controls-stacked">
+    
+                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="35[]" value='answer_d'>
+                
+<label class="custom-control-label lead">command aliases</label>
+
+</div>
+                                                                                                                                                                                                                                                                                                                                    
+<div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" name="35[]" value='answer_a'>
+                
+                <label class="custom-control-label lead">filesystem information</label>
+
+            </div>
+                                                                                                                                                                            
+            <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" name="35[]" value='answer_c'>
+                
+                <label class="custom-control-label lead">root user shell</label>
+
+            </div>
+                                                                                                                                                                                                                        
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="35[]" value='answer_b'>
+                    
+                    <label class="custom-control-label lead">various password information</label>
+
+                </div>
+                                                                                                                                
+                <input type='hidden' value='0' name="35[]">
+                                            <hr>
+        <div class='pt-3 pull-right'>
+            <button type="button" name='previousQuestion6Button' class="btn-round btn btn-outline-info">Previous Question</button>
+        <button type="button" name='nextQuestion6Button' class="btn-round btn btn-outline-info">Next Question</button>
+        </div>
+    </div>
+</div>
+                                                                                                                                                         
+                                                                                                    
+<div name='Question7' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 7</h6>
+<p class="text-right pt-0">
+    Correct Answers:  <span class="text-success">1/4</span>
+</p>
+<h4 class="lead"><strong>The following command can be used for turning off or restarting a Linux host.</strong></h4>
+
+<div class="custom-controls-stacked">
+    
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="43[]" value='answer_d'>
+                
+<label class="custom-control-label lead">taskkill</label>
+
+</div>
+                                                                                                                                                                                                                                                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="43[]" value='answer_a'>
+    
+    <label class="custom-control-label lead">reboot</label>
+
+</div>
+                                                                                                                                                                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="43[]" value='answer_c'>
+    
+<label class="custom-control-label lead">exit</label>
+
+</div>
+                                                                                                                                                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="43[]" value='answer_b'>
+                    
+<label class="custom-control-label lead">shutdown</label>
+
+</div>
+<input type='hidden' value='0' name="43[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion7Button' class="btn-round btn btn-outline-info">Previous Question</button>
+<button type="button" name='nextQuestion7Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+    </div>
+</div>                                                                                                                                                                                                                     
+                                                                                                    
+<div name='Question8' style=display:none;>
+    <h6 class="divider mt-7 mb-1">Question 8</h6>
+    <p class="text-right pt-0">
+    Correct Answers:  <span class="text-success">1/4</span>
+    </p>
+    <h4 class="lead"><strong>Which of the following key combinations allows to terminate the current process in Linux shell?</strong></h4>
+    
+    <div class="custom-controls-stacked">
+        
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="49[]" value='answer_d'>
+                    
+    <label class="custom-control-label lead">Ctrl + L</label>
+
+    </div>
+                                                                                                                                                                                                                                                                                                                                        
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="49[]" value='answer_a'>
+                                                            
+        <label class="custom-control-label lead">Ctrl + C</label>
+
+    </div>
+                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="49[]" value='answer_c'>
+        
+        <label class="custom-control-label lead">Ctrl + A</label>
+
+    </div>
+                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="49[]" value='answer_b'>
+        
+        <label class="custom-control-label lead">Ctrl + Z</label>
+
+    </div>
+<input type='hidden' value='0' name="49[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion8Button' class="btn-round btn btn-outline-info">Previous Question</button>
+<button type="button" name='nextQuestion8Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+</div>
+</div>
+                                                                                                                                                           
+                                                                                                    
+<div name='Question9' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 9</h6>
+<p class="text-right pt-0">
+Correct Answers:  <span class="text-success">2/6</span>
+</p>
+<h4 class="lead"><strong>What is the default working directory of the Linux administrator user?</strong></h4>
+
+<div class="custom-controls-stacked">
+
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="677[]" value='answer_d'>
+        
+    <label class="custom-control-label lead">/administrator</label>
+
+    </div>
+                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="677[]" value='answer_f'>
+        
+        <label class="custom-control-label lead">/home/root</label>
+
+    </div>
+                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="677[]" value='answer_e'>
+        
+    <label class="custom-control-label lead">/admin</label>
+            
+    </div>
+                                                                                                                                                                                
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="677[]" value='answer_a'>
+        
+        <label class="custom-control-label lead">/root</label>
+
+    </div>
+                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="677[]" value='answer_c'>
+        
+        <label class="custom-control-label lead">/usr/admin</label>
+
+</div>
+                                                                                                                                                                                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="677[]" value='answer_b'>
+                    
+<label class="custom-control-label lead">Doesn&#039;t have one</label>
+
+</div>
+                                                                                                                                
+<input type='hidden' value='0' name="677[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion9Button' class="btn-round btn btn-outline-info">Previous Question</button>
+<button type="button" name='nextQuestion9Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+    </div>
+</div>
+                                                                                                
+<div name='Question10' style=display:none;>
+    <h6 class="divider mt-7 mb-1">Question 10</h6>
+    <p class="text-right pt-0">
+        Correct Answers:  <span class="text-success">1/4</span>
+    </p>
+    <h4 class="lead"><strong>Who designed the Linux OS?</strong></h4>
+    
+    <div class="custom-controls-stacked">
+        
+                                                                                            
+        <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="681[]" value='answer_d'>
+                    
+                    <label class="custom-control-label lead">Steve Linus</label>
+
+                </div>
+                                                                                                                                                                                                                                                                                                                                        
+                <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="681[]" value='answer_a'>
+                                                            
+                    <label class="custom-control-label lead">Linus Torvalds</label>
+
+                </div>
+                                                                                                                                                                                
+                <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="681[]" value='answer_c'>
+                    
+                    <label class="custom-control-label lead">Steve Wozniak</label>
+
+                </div>
+                                                                                                                                                                                
+                <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="681[]" value='answer_b'>
+                    
+                    <label class="custom-control-label lead">Steve Jobs</label>
+
+                </div>
+                                                                                                                                
+                <input type='hidden' value='0' name="681[]">
+                                            <hr>
+        <div class='pt-3 pull-right'>
+                                                                                                
+            <button type="button" name='previousQuestion10Button' class="btn-round btn btn-outline-info">Previous Question</button>
+</div>
+        </div>
+    </div>
+                    
+                        
+<div class="mt-8 input-round"  name='submitForm' >
+    <div class="mt-5 col-md-8 mx-auto pt-0" name='contributionDivider'>
+        <h6 class="divider">Finish Quiz</h6>
+    </div>
+    <button type="button" class="btn  btn-round btn-block btn-outline-success" data-toggle="modal" data-target="#modal-background">Submit Answers</button>
+</div>
+
+<div class="modal fade" id="modal-background" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content bg-img" style="background-image: url(https://quizapi.io/storage/quiz/finishQuiz.jpeg)">
+        <div class="modal-body text-white1 py-8">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="row">
+            <div class="col-md-8 col-xl-6">
+                <h3>Are you sure?</h3>
+                <p class="lead mb-5">Please review your questions and make sure you've answered on all of them! There is no going back!</p>
+                <button class="btn btn-round btn-lg1 btn-info" data-dismiss="modal">Return to Quiz</button>
+                <button class="btn btn-round btn-lg1 btn-success" type='submit'>Submit Quiz</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+            
+    <input type='hidden' value='Linux' name="tag">
+    <input type='hidden' value='predefined' name="quizType">
+    </form>
+</div>
+</section>
+</div>
+</div>
+</div>
+        
+
+<script src="script.js"></script>
+
+</body>
+</html>

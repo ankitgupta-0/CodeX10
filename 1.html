@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Web Application</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./assets/quiz.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+     
+</head>
+<body>
+    <div class="logo">
+        <span class="material-symbols-outlined">quiz</span>
+        <div class="protest-revolution-regular">JAVA</div>
+    </div>
+    <section class="section pt-0">
+        <div class="container">
+        <header class="section-header">
+        <hr>
+        </header>
+        <div class="row gap-y text-center pr-4">
+            
+                 <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+           <button class="btn btn-xs small btn-info" name="buttonQuestion1" onclick="showQuestion1()">Question
+                1</button>
+                    </div>
+                </div>
+                    <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                    <button class="btn btn-xs small " name="buttonQuestion2" onclick="showQuestion2()">Question
+                    2</button>
+                    </div>
+                </div>
+                    <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion3" onclick="showQuestion3()">Question
+                        3</button>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion4" onclick="showQuestion4()">Question
+                        4</button>
+                    </div>
+                </div>
+                 <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion5" onclick="showQuestion5()">Question
+                        5</button>
+                    </div>
+                </div>
+            <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion6" onclick="showQuestion6()">Question
+                        6</button>
+                    </div>
+                </div>
+               <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion7" onclick="showQuestion7()">Question
+                        7</button>
+                    </div>
+                </div>
+               <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion8" onclick="showQuestion8()">Question
+                        8</button>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion9" onclick="showQuestion9()">Question
+                        9</button>
+                    </div>
+                </div>
+                <div class="col-4 col-md-4 col-lg-2">
+                    <div class="col-md-2 hover-shadow-8 rounded">
+                        <button class="btn btn-xs small " name="buttonQuestion10" onclick="showQuestion10()">Question
+                        10</button>
+                    </div>
+                </div>
+        </div> <form action="result.html">
+            <!-- <input type="hidden" name="_token" value="tZQbNgYaJOhVUTjiJXFPTYrx1A1ttzgoozcxzK9C">                                                     -->
+                             
+                                                                                                                                            
+                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                    
+             <div name='Question1' >
+             <h6 class="divider mt-7 mb-1">Question 1</h6>
+             <p class="text-right pt-0">
+             Correct Answers:  <span class="text-success">1/4</span>
+        </p>
+            <h4 class="lead"><strong>_________is the smallest integer datatype in java
+            </strong></h4>
+                                            
+            <div class="custom-controls-stacked">
+                                                
+                <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" name="q1" value='answer_d'>
+                                                            
+         <label class="custom-control-label lead">byte</label>
+            
+        </div>
+                                                                                                                                                                                                                                                                                                                                                                                
+        <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" name="q1" value='answer_a'>
+                                                            
+   <label class="custom-control-label lead">short</label>
+            
+     </div>
+                                                                                                                                                                                                                        
+     <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q1" value='answer_c'>
+                                                            
+    <label class="custom-control-label lead">int</label>
+            
+    </div>
+                                                                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q1" value='answer_b'>
+                                                            
+    <label class="custom-control-label lead">all are same</label>
+            
+    </div>
+                                                                                                                                                                        
+    <input type='hidden' value='0' name="1[]">
+    <hr>
+    <div class='pt-3 pull-right'>
+                                                                                                                                        
+        <button type="button" name='nextQuestion1Button' class="btn-round btn btn-outline-info">Next Question</button>
+        </div>
+        </div>
+        </div>
+                                                     
+                                                                
+                                        
+                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                            
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                        
+                                                                                                    
+    <div name='Question2' style=display:none;>
+    <h6 class="divider mt-7 mb-1"> Question 2</h6>
+     <p class="text-right pt-0">
+    Correct Answers:  <span class="text-success">1/4</span>
+    </p>
+    <h4 class="lead"><strong> Whenever you used -ve value or, the value greater than or equal to the size of the array, then the ______________ exception is thrown</strong></h4>
+                                            
+    <div class="custom-controls-stacked">
+                                                
+                                                                                                                                    
+        <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q2" value='answer_d'>
+                                                            
+     <label class="custom-control-label lead">ArrayIndexOutOfBoundsException</label>
+            
+    </div>
+                                                                                                                                                                                                                                                                                                                                                                                
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q2" value='answer_a'>
+                                                            
+     <label class="custom-control-label lead">FileNotFoundException
+    </label>
+            
+    </div>
+                                                                                                                                                                                                                        
+   <div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" name="q2" value='answer_c'>
+                                                            
+    <label class="custom-control-label lead">ArithmeticException</label>
+            
+    </div>
+                                                                                                                                                                                                                        
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q2" value='answer_b'>
+                                                            
+    <label class="custom-control-label lead">IOException</label>
+            
+    </div>
+                                                                                                                                                                        
+    <input type='hidden' value='0' name="10[]">
+   <hr>
+    <div class='pt-3 pull-right'>
+    <button type="button" name='previousQuestion2Button' class="btn-round btn btn-outline-info">Previous Question</button>
+                                                                                                                                        
+    <button type="button" name='nextQuestion2Button' class="btn-round btn btn-outline-info">Next Question</button>
+    </div>
+    </div>
+    </div>
+
+ <div name='Question3' style=display:none;>
+    <h6 class="divider mt-7 mb-1">Question 3</h6>
+    <p class="text-right pt-0">
+        Correct Answers:  <span class="text-success">1/4</span>
+    </p>
+    <h4 class="lead"><strong>Multiline comments are written in java as______
+    </strong></h4>
+    
+    <div class="custom-controls-stacked">
+        
+                                                                                            
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q3" value='answer_d'>
+                    
+    <label class="custom-control-label lead"> /* ----- */</label>
+
+    </div>
+                                                                                                                                                                                                                                                                                                                                        
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q3" value='answer_a'>
+                    
+    <label class="custom-control-label lead"> ** ----- **</label>
+
+    </div>
+                                                                                                                                                                                
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q3" value='answer_c'>
+                    
+    <label class="custom-control-label lead"> // ------ //
+    </label>
+
+    </div>
+                                                                                                                                                                                
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q3" value='answer_b'>
+                    
+    <label class="custom-control-label lead"> # ------ #</label>
+
+    </div>
+                                                                                                                                
+    <input type='hidden' value='0' name="20[]">
+    <hr>
+    <div class='pt-3 pull-right'>
+    <button type="button" name='previousQuestion3Button' class="btn-round btn btn-outline-info">Previous Question</button>
+                                                                                                
+    <button type="button" name='nextQuestion3Button' class="btn-round btn btn-outline-info">Next Question</button>
+    </div>
+    </div>
+</div>
+                                                                                                
+<div name='Question4' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 4</h6>
+<p class="text-right pt-0">
+Correct Answers:  <span class="text-success">1/4</span>
+</p>
+<h4 class="lead"><strong>_______ are the pre-defined reserved words of any programming language</strong></h4>
+            
+<div class="custom-controls-stacked">
+                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q4" value='answer_d'>
+                            
+<label class="custom-control-label lead">data</label>
+
+</div>
+                                                                                                                                                                                                                                                                                                                                                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q4" value='answer_a'>
+                            
+<label class="custom-control-label lead">keywords</label>
+
+</div>
+                                                                                                                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q4" value='answer_c'>
+                                                            
+<label class="custom-control-label lead">strings</label>
+            
+</div>
+                                                                                                                                                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q4" value='answer_b'>
+                                                            
+<label class="custom-control-label lead">methods</label>
+            
+</div>
+                                                                                                                                                                        
+<input type='hidden' value='0' name="21[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion4Button' class="btn-round btn btn-outline-info">Previous Question</button>
+                                                                                                                                        
+<button type="button" name='nextQuestion4Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+</div>
+</div>
+<div name='Question5' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 5</h6>
+<p class="text-right pt-0">
+Correct Answers:  <span class="text-success">1/4</span>
+</p>
+<h4 class="lead"><strong>Which will legally declare, construct, and initialize an array?</strong></h4>
+        
+<div class="custom-controls-stacked">
+            
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q5" value='answer_d'>
+                        
+<label class="custom-control-label lead"> int [ ] myList={ }</label>
+
+</div>
+                                                                                                                                                                                                                                                                                                                                            
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q5" value='answer_a'>
+    
+    <label class="custom-control-label lead">int [ ] myList=(5,8,2);
+    </label>
+
+</div>
+                                                                                                                                                                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q5" value='answer_c'>
+    
+    <label class="custom-control-label lead">int myList [ ][ ]={4,9,7,0};
+    </label>
+
+</div>
+                                                                                                                                                                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q5" value='answer_b'>
+    
+    <label class="custom-control-label lead"> int [ ] myList={4,3,7}</label>
+
+</div>
+                                                                                                                
+<input type='hidden' value='0' name="34[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion5Button' class="btn-round btn btn-outline-info">Previous Question</button>
+<button type="button" name='nextQuestion5Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+</div>
+</div>
+                                                                                                                                                          
+                                                                                                    
+<div name='Question6' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 6</h6>
+<p class="text-right pt-0">
+    Correct Answers:  <span class="text-success">1/4</span>
+</p>
+<h4 class="lead"><strong>In which java oops feature one object can acquire all the properties and behaviors of 
+    the parent object?</strong></h4>
+
+<div class="custom-controls-stacked">
+    
+                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q6" value='answer_d'>
+                
+<label class="custom-control-label lead">encapsulation</label>
+
+</div>
+                                                                                                                                                                                                                                                                                                                                    
+<div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" name="q6" value='answer_a'>
+                
+                <label class="custom-control-label lead">inheritance</label>
+
+            </div>
+                                                                                                                                                                            
+            <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" name="q6" value='answer_c'>
+                
+                <label class="custom-control-label lead">polymorphism</label>
+
+            </div>
+                                                                                                                                                                                                                        
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="q6" value='answer_b'>
+                    
+                    <label class="custom-control-label lead">method overloading</label>
+
+                </div>
+                                                                                                                                
+                <input type='hidden' value='0' name="35[]">
+                                            <hr>
+        <div class='pt-3 pull-right'>
+            <button type="button" name='previousQuestion6Button' class="btn-round btn btn-outline-info">Previous Question</button>
+        <button type="button" name='nextQuestion6Button' class="btn-round btn btn-outline-info">Next Question</button>
+        </div>
+    </div>
+</div>
+                                                                                                                                                         
+                                                                                                    
+<div name='Question7' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 7</h6>
+<p class="text-right pt-0">
+    Correct Answers:  <span class="text-success">1/4</span>
+</p>
+<h4 class="lead"><strong>Which of these keywords is used to define packages in Java?</strong></h4>
+
+<div class="custom-controls-stacked">
+    
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q7" value='answer_d'>
+                
+<label class="custom-control-label lead">pkg</label>
+
+</div>
+                                                                                                                                                                                                                                                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q7" value='answer_a'>
+    
+    <label class="custom-control-label lead">Pkg</label>
+
+</div>
+                                                                                                                                                                
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q7" value='answer_c'>
+    
+<label class="custom-control-label lead">package</label>
+
+</div>
+                                                                                                                                                                                                                        
+<div class="custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" name="q7" value='answer_b'>
+                    
+<label class="custom-control-label lead">Package</label>
+
+</div>
+<input type='hidden' value='0' name="43[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion7Button' class="btn-round btn btn-outline-info">Previous Question</button>
+<button type="button" name='nextQuestion7Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+    </div>
+</div>                                                                                                                                                                                                                     
+                                                                                                    
+<div name='Question8' style=display:none;>
+    <h6 class="divider mt-7 mb-1">Question 8</h6>
+    <p class="text-right pt-0">
+    Correct Answers:  <span class="text-success">1/4</span>
+    </p>
+    <h4 class="lead"><strong>The keyword used to import a package into Java class or Interface is ___</strong></h4>
+    
+    <div class="custom-controls-stacked">
+        
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q8" value='answer_d'>
+                    
+    <label class="custom-control-label lead">import</label>
+
+    </div>
+                                                                                                                                                                                                                                                                                                                                        
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q8" value='answer_a'>
+                                                            
+        <label class="custom-control-label lead">download</label>
+
+    </div>
+                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q8" value='answer_c'>
+        
+        <label class="custom-control-label lead">use</label>
+
+    </div>
+                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q8" value='answer_b'>
+        
+        <label class="custom-control-label lead">define</label>
+
+    </div>
+<input type='hidden' value='0' name="49[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion8Button' class="btn-round btn btn-outline-info">Previous Question</button>
+<button type="button" name='nextQuestion8Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+</div>
+</div>
+                                                                                                                                                           
+                                                                                                    
+<div name='Question9' style=display:none;>
+<h6 class="divider mt-7 mb-1">Question 9</h6>
+<p class="text-right pt-0">
+Correct Answers:  <span class="text-success">1/4</span>
+</p>
+<h4 class="lead"><strong>Which of these is not a Thread state?</strong></h4>
+
+<div class="custom-controls-stacked">
+
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q9" value='answer_d'>
+        
+    <label class="custom-control-label lead">New</label>
+
+    </div>
+                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q9" value='answer_f'>
+        
+        <label class="custom-control-label lead">Runnable</label>
+
+    </div>
+                                                                                                                                                                    
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q9" value='answer_e'>
+        
+    <label class="custom-control-label lead">Sleep</label>
+            
+    </div>
+                                                                                                                                                                                
+    <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" name="q9" value='answer_a'>
+        
+        <label class="custom-control-label lead">Terminated</label>
+
+    </div>
+                                                                                                                                                                    
+                                                                                                                                
+<input type='hidden' value='0' name="677[]">
+<hr>
+<div class='pt-3 pull-right'>
+<button type="button" name='previousQuestion9Button' class="btn-round btn btn-outline-info">Previous Question</button>
+<button type="button" name='nextQuestion9Button' class="btn-round btn btn-outline-info">Next Question</button>
+</div>
+    </div>
+</div>
+                                                                                                
+<div name='Question10' style=display:none;>
+    <h6 class="divider mt-7 mb-1">Question 10</h6>
+    <p class="text-right pt-0">
+        Correct Answers:  <span class="text-success">1/4</span>
+    </p>
+    <h4 class="lead"><strong> Which keyword is used to explicitly throw an Exception?</strong></h4>
+    
+    <div class="custom-controls-stacked">
+        
+                                                                                            
+        <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="q10" value='answer_d'>
+                    
+                    <label class="custom-control-label lead">throw</label>
+
+                </div>
+                                                                                                                                                                                                                                                                                                                                        
+                <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="q10" value='answer_a'>
+                                                            
+                    <label class="custom-control-label lead">try</label>
+
+                </div>
+                                                                                                                                                                                
+                <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="q10" value='answer_c'>
+                    
+                    <label class="custom-control-label lead">catch</label>
+
+                </div>
+                                                                                                                                                                                
+                <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" name="q10" value='answer_b'>
+                    
+                    <label class="custom-control-label lead">throwing</label>
+
+                </div>
+                                                                                                                                
+                <input type='hidden' value='0' name="681[]">
+        <hr>
+        <div class='pt-3 pull-right'>
+                                                                                                
+            <button type="button" name='previousQuestion10Button' class="btn-round btn btn-outline-info">Previous Question</button>
+</div>
+        </div>
+    </div>
+    
+                        
+<div class="mt-8 input-round"  name='submitForm' >
+    <div class="mt-5 col-md-8 mx-auto pt-0" name='contributionDivider'>
+        <h6 class="divider">Finish Quiz</h6>
+    </div>
+    <input type="text" name="serialNumber" />
+    <input type="submit" value="Submit" />
+    <button type="button" class="btn  btn-round btn-block btn-outline-success" data-toggle="modal" data-target="#modal-background">Submit Answers</button>
+</div>
+</form>
+    
+</div>
+</section>
+</div>
+</div>
+</div>
+
+
+
+
+        
+<script src="app.js"></script>
+<script src="script.js"></script>
+<script>
+    function submitQuiz() {
+        const correctAnswers = {
+            q1: 'answer_c',
+        q2:'answer_d',
+        q3: 'answer_d',
+        q4:'answer_a',
+        q5: 'answer_b',
+            // Add correct answers for other questions
+        };
+
+        let score = 0;
+
+        // Loop through each question
+        for (let i = 1; i <= 5; i++) {
+            const selectedAnswer = document.querySelector(`input[name="q${i}"]:checked`);
+
+            if (selectedAnswer) {
+                const userAnswer = selectedAnswer.value;
+
+                // Check if user's answer matches the correct answer
+                if (userAnswer === correctAnswers[`q${i}`]) {
+                    score += 1;
+                }
+            }
+        } window.location.href = `result.html?score=${score}`;
+
+// Prevent the form from submitting the traditional way
+return false;
+}
+</script>
+
+</body>
+</html>
